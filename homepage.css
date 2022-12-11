@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+  
+ .hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 152, 237), rgba(253, 132, 115));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+ }
+ nav{
+   z-index: 1;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left:0;
+   padding: 90px 5%;
+   display: flex;
+   align-items: center;
+   justify-content: safe;
+ 
+}
+ 
+nav .logo{
+   z-index: 1;
+   width: 240px;
+}
+ 
+nav ul li{
+   list-style: none;
+   display: inline-block;
+   margin-left: -70px;
+   margin-right: 110px;
+  
+}
+nav ul li a{
+   text-decoration: none;
+   background-color: #FFF569;
+   padding: 10px 10px;
+   color: black;
+   font-size: 15px;
+   border-radius: 20px;
+   border: 1px solid pink;
+}
+ 
+nav a:hover{
+   color: rgb(255, 253, 253);
+   background-color: brown;
+   transition: 0s;
+   border: none;
+}
+nav a:is(:link, :active, :visited).active{
+   color: white;
+   background-color: brown;
+   border: 1px solid pink;;
+}
+ 
+.paralogo h2 {
+  color: #F6E5C8;
+  left: 80px;
+  top: 40px;
+}
+.paralogo h3 {
+  color: #F6E5C8;
+  font-family: monospace;
+}
+
+.content{
+   z-index: 1;
+   text-align: center;
+}
+.content h1{
+   font-size: 100px;
+   color: white;
+   font-weight: 600;
+   transition: 0.5s;
+ 
+}
+.content h1:hover{
+   -webkit-text-stroke: 2px #fff;
+   color: transparent;
+ 
+}
+.content h2{
+   font-size: 30px;
+}
+.content h3{
+   font-size: 20px;
+}
+ 
+ 
+.video{
+   position: absolute;
+   right:0;
+   bottom: 0;
+   z-index: 1;
+}
+ 
+@media (min-aspect-ratio: 16/9){
+   .video{
+       width:100%;
+       height:auto;
+   }
+}
+@media (max-aspect-ratio: 16/9){
+   .video{
+       width:auto;
+       height:100%;
+   }
+}
+
+.two{
+   width: 50%;
+   height: 70px;
+   float: left;
+   padding: 20px;
+   background-color: #FFF569;
+   margin-bottom: 20px;
+}
+ 
+ 
+.slide{
+   width: 100%;
+   height: 300hv;
+   float:left;
+   background-color: #FFF569;
+}
+ 
+.slide img{
+   width: 100%;
+   border-radius: 20px;  
+}
+ 
+.aboutpara h1{
+   color:rgb(5, 196, 196);
+   margin-left: 800px;
+   margin-top: -500px;
+}
+.aboutpara p{
+   color:rgb(2, 3, 3);
+   margin-left: 800px;
+}
+ 
+.aboutpara ul li a{
+   color: black;
+   background-color: #F6E5C8;
+   padding: 10px 10px;
+   border-radius: 25px;
+   border: 2px solid darkgreen ;
+   text-decoration: none;
+   margin-left: 1000px;
+   margin-top: -600px;
+   margin-bottom: 500px;
+ 
+}
+.aboutpara a:hover {
+   color: white;
+   background-color: rgb(208, 66, 66);
+   transition: 0s;
+   border: none;
+}
+
+.gamesh1 h1{
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+.gamesv{
+  flex-basis: 33.33%;
+  float: left;
+  position: relative;
+ 
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+
+}
+
+.gamesv video{
+  margin-left: 5px;
+  margin-right: 50px;
+  width: 20%;
+  border-radius: 25px;
+}
+
+ 
+.glow{
+   margin: 0;
+   padding:0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 20vh;
+   background: #000;
+}
+.glow h1{
+   margin: 0;
+   padding: 0;
+   color: #111;
+   font-size: 8em;
+  
+ 
+}
+ 
+.glow h1 span{
+   display: table-cell;
+   margin: 0;
+   padding: 0;
+   animation: animate 2s linear infinite;
+}
+.glow h1 span:nth-child(1){
+   animation-delay: 0s;
+ 
+}
+.glow h1 span:nth-child(2){
+   animation-delay: 0.25s;
+ 
+}
+.glow h1 span:nth-child(3){
+   animation-delay: 0.5s;
+ 
+}
+.glow h1 span:nth-child(4){
+   animation-delay: 0.75s;
+ 
+}
+.glow h1 span:nth-child(5){
+   animation-delay: 1s;
+ 
+}
+.glow h1 span:nth-child(6){
+   animation-delay: 1.25s;
+ 
+}
+.glow h1 span:nth-child(7){
+   animation-delay: 1.5s;
+ 
+}
+.glow h1 span:nth-child(8){
+   animation-delay: 1.75s;
+ 
+}
+@keyframes animate
+{
+   0%,100%
+   {
+       color: white;
+       filter: blur(2px);
+       text-shadow: 0 0 10px #00FFFF,
+                    0 0 20px #00FFFF,
+                    0 0 40px #00FFFF,
+                    0 0 80px #00FFFF,
+                    0 0 120px #00FFFF,
+                    0 0 200px #00FFFF,
+                    0 0 300px #00FFFF,
+                    0 0 400px #00FFFF;
+      
+   }
+   5%,95%
+   {
+       color: #111;
+       filter: blur(0px);
+       text-shadow: 0 0 10px none;
+    
+   }
+}
+
+.team{
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   justify-content: center;
+   height: 300vh;
+   width: 100%;
+   background: linear-gradient(45deg,rgb(49, 27, 246),rgb(214, 106, 23),rgb(206, 82, 192),rgb(127, 13, 220));
+   animation: color 12s ease-in-out infinite;
+  }
+  @keyframes color{
+     0%{
+         background-position: 0 50%;
+     }
+     50%{
+         background-position: 100% 50%;
+     }
+     100%{
+         background-position: 0 50%;
+     }
+  }
+   
+  .team img{
+     border-radius: 90px;
+     width: 60%;
+
+  }
+   
+   
+  .teambut ul li a{
+     color: black;
+     background-color: #eff15c;
+     padding: 10px 10px;
+     border-radius: 25px;
+     border: 2px solid darkgreen ;
+     text-decoration: none;
+     margin-left: 680px;
+   
+   
+  }
+   
+  .teambut a:hover {
+     color: white;
+     background-color: rgb(208, 66, 66);
+     transition: 0s;
+     border: none;
+  }
+  
+
+
+
+
+ 
+.footer {
+   background-color: #35322f;
+   height: 35vh;
+   width: 100%;
+  
+ }
+.footer p {
+   color:  #F6E5C8;
+ }
+.social-icons .fa{
+   padding: 10px 10px;
+   font-size: 30px;
+   width: 50px;
+   text-decoration: none;
+   border: none;
+   border-radius: 30px;
+   text-align: center;
+ }
+.social-icons .fa:hover{
+   opacity: 0.7;
+ }
+.social-icons .fa-instagram{
+   background: #d735b6;
+   color: white;
+ }
+  
+.social-icons .fa-facebook{
+   background: #3B5998;
+   color:white;
+  
+ }
+
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   background: #6cf;
+   background: red;
+   
+ }
+ footer .footerLinks ul{
+   list-style-type: none;  
+   padding-bottom:5px;
+ }
+ footer .footerLinks ul li{  
+    float: left;
+ }
+ footer .footerLinks ul li a{ 
+     padding: 16px;
+     text-decoration: none;
+     color: #F6E5C8;
+ } 
+ 
+footer .footerLinks{
+   top: 1180px;
+   left: 500px;
+   position: absolute;
+}
+
+footer .footerLinks ul li a:hover{ 
+   padding: 16px;
+   text-decoration: none;
+   color: #f0b040;
+} 
+
+

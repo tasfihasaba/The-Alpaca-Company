@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+ 
+ 
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Poppins", sans-serif;
+ 
+}
+body{
+   min-height: 100vh;
+   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ef9a3260506271.5a4f65ff2e513.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+nav{
+ z-index: 1;
+ width: 100%;
+ position: absolute;
+ top: 0;
+ left:0;
+ padding: 90px 5%;
+ display: flex;
+ align-items: center;
+ justify-content: safe;
+}
+nav .logo{
+ z-index: 1;
+ width: 240px;
+}
+nav ul li{
+ list-style: none;
+ display: inline-block;
+ margin-left: 50px;
+}
+nav ul li a{
+ text-decoration: none;
+ background-color: #FFF569;
+ padding: 10px 10px;
+ color: black;
+ font-size: 15px;
+ border-radius: 20px;
+ border: 1px solid pink;
+}
+nav a:hover{
+ color: rgb(255, 253, 253);
+ background-color: brown;
+ transition: 0s;
+ border: none;
+}
+nav a:is(:link, :active, :visited).active{
+ color: white;
+ background-color: brown;
+ border: 1px solid pink;;
+}
+.paralogo h2 {
+color: #F6E5C8;
+left: 80px;
+top: 40px;
+}
+.paralogo h3 {
+color: #F6E5C8;
+font-family: monospace;
+}
+ 
+.header{
+ background-color: #37322d;
+ height: 200px;
+ width: 400px;
+}
+ 
+ 
+.contact-selection{
+   width: 100;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+ 
+.contact-info{
+   color: white;
+   max-width: 500px;
+   line-height: 50px;
+   padding-left: 50px;
+   font-size: 18px;
+}
+ 
+.contact-info i {
+   margin-size: 50px;
+   font-size: 25px;
+}
+ 
+ 
+.contact-form .contact input[type="submit"]{
+ width: 60px;
+ background: #3491f4;
+ color: rgb(250, 240, 240);
+ border: none;
+ cursor: pointer;
+ padding: 10px;
+ font-size: 15px ;
+  border-radius: 20px;
+}
+ 
+ 
+.contact-form .contact input[type="submit"]:hover{
+ background: rgb(201, 40, 237);
+ color:rgb(234, 249, 99);
+}
+ 
+ 
+ 
+ 
+.facebook{
+color: blue;
+ }
+.facebook:hover{
+ color: blueviolet;
+ transition: color 0.1s;
+ text-decoration: none;
+}
+ 
+.instagram{
+ color: rgb(201, 6, 165);
+   }
+ .instagram:hover{
+   color: rgb(210, 100, 220);
+   transition: color 0.2s;
+   text-decoration: none;
+ }
+ 
+ .envelope{
+   color: rgb(242, 114, 45);
+     }
+   .envelope:hover{
+     color: rgb(128, 212, 237);
+     transition: color 0.2s;
+     text-decoration: none;
+   }

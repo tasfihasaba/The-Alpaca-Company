@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="1tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="contactweb.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+</head>   
+ <body>
+  <div class="header" style="width: 100%; position:absolute; top: 0px">
+       <nav>
+         <img src="imagesconweb/logo.png" class="logo" style="width: 17%; position:absolute; left: 67px; top: -10px;">
+         <ul style="margin-left: 600px; ">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="team.html">Team</a></li>
+             <li><a href="careers.html">Careers</a></li>
+             <li><a class="active" href="contactweb.html">Contact</a></li>
+         </ul>
+      </nav>
+      <div class="paralogo" style="z-index: 1">
+         <h2 style="position:absolute; left: 250px; top: 50px">Alpaca<br>Company</h2>
+         <h3 style="position:absolute; left: 250px; top: 120px">Educational Gaming</h3>
+  </div>
+</div> 
+<div class="contact-section" style="position:absolute; top: 200px; left: 10px;  background-image: linear-gradient(rgb(245, 135, 83),rgb(234, 246, 140), rgb(245, 135, 83));" >
+  <div class="contact-info">
+      <a style="text-decoration: none" class="facebook" href="https://www.facebook.com/profile.php?id=100087651924904">
+      <div><i class="fa-brands fa-facebook"></i>Alpaca Company</div>
+      </a>
+      <a style="text-decoration: none" class="instagram" href="https://www.instagram.com/therealalpacacompany/">
+          <div><i class="fa-brands fa-square-instagram"></i>therealalpacacompany</div>
+      </a>
+      <a style="text-decoration: none" class="envelope" href="mailto:hello@projectalpaca.org">
+          <div><i class="fa-solid fa-envelope"></i>hello@projectalpaca.org</div>
+      </a>
+  <div class="contact-form">
+      <h2 style="font-family: Oswald; font-size: 40px; color: black">Contact Us</h2>
+      <p style="font-size:14px; color: black; font-size: 15px;">Please feel free to contact our team if you have any questions or feedback to provide &#128515</p>
+ 
+      <form class="contact" action="https://formspree.io/f/moqbbeqk" method="POST">
+          <input type="hidden" name="_subject" value="New email! Woooo! [The Alpaca Company]">
+        
+          <input style="background-color: rgb(239, 247, 247)" type="text" name="name" class="text-box" placeholder="Your Name" required>
+          <input style="background-color: rgb(243, 252, 252) "type="email" name="email" class="text-box" placeholder="Your Email" required>
+          <textarea style="background-color: rgb(253, 253, 253);"name="message" rows="10" cols="45" placeholder="Type your Message..." required></textarea>
+          <input type="submit" name="submit" class="send-btn" value="Send">
+      </form>
+  </div>  
+  </div>
+  </div>
+ 
+ 
+</body>
+</html>

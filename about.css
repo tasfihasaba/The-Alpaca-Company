@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ body{
+ background-color: #35322f;
+ }
+ nav{
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    padding: 90px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+  
+ }
+  
+ nav .logo{
+    z-index: 1;
+    width: 240px;
+ }
+  
+ nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+   
+ }
+ nav ul li a{
+    text-decoration: none;
+    background-color: #FFF569;
+    padding: 10px 10px;
+    color: black;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid pink;
+ }
+  
+ nav a:hover{
+    color: rgb(255, 253, 253);
+    background-color: brown;
+    transition: 0s;
+    border: none;
+ }
+ nav a:is(:link, :active, :visited).active{
+    color: white;
+    background-color: brown;
+    border: 1px solid pink;;
+ }
+  
+.paralogo h2 {
+   color: #F6E5C8;
+   left: 80px;
+   top: 40px;
+}
+.paralogo h3 {
+   color: #F6E5C8;
+   font-family: monospace;
+}
+.pic{
+   height: 892px;
+   width: 1300px;
+   background-color: #FFF569;
+   text-align: center;    
+}
+
+.pic h1{
+   text-align: center;
+   font-size: 90px;
+   font-family: Oswald;
+   color: #20abab;
+   
+
+}
+
+.parent {
+   position: relative;
+   top: 0;
+   left: 0;
+ }
+.image1 {
+   position: absolute;
+   top: 0;
+   left: 0;
+  
+ }
+.image2 {
+   position: relative;
+   top: 0px;
+   left: 0px;
+ }
+
+.slogan{
+   color: rgb(52, 35, 35);
+   font-size: 25px;
+ }
+.orange-back{
+   height: 975px;
+   
+   background-color:#F58916;
+   
+}
+.our-story{
+   height: 250px;
+   width: 1300px;
+   background-color: #20abab;
+   text-align: center;  
+   color: #F6E5C8;
+   font-family: Helvetica;
+} 
+
+.our-story p{
+   top: 70px;
+   left: 400px;
+   
+}
+
+.our-mission{
+   height: 250px;
+   width: 1300px;
+   background-color: #FFF569;
+   text-align: center;
+   color: rgb(89, 84, 84);
+}
+
+.our-mission p{
+   top: 50px;
+   left: 100px;
+  
+}
+
+.our-values{
+   height: 250px;
+   width: 1300px;
+   background-color: #20abab;
+   text-align: center;  
+   color: #F6E5C8  
+} 
+
+.our-values p{
+   top: 30px;
+   left: 400px;
+   
+}
+
+.footer{
+   background-color: rgb(2, 81, 81);
+   height: 265px;
+   width: 100%;
+ }
+
+ .footer p {
+   color:  #F6E5C8;
+ }
+
+ .social-icons .fa{
+   padding: 10px 10px;
+   font-size: 30px;
+   width: 50px;
+   text-decoration: none;
+   border: none;
+   border-radius: 30px;
+   text-align: center;
+}
+.social-icons .fa:hover{
+   opacity: 0.7;
+}
+.social-icons .fa-instagram{
+   background: #d735b6;
+   color: white;
+}
+
+.social-icons .fa-facebook{
+   background: #3B5998;
+   color:white;
+   
+}
+
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   background: #6cf;
+   background: red;
+   
+ }
+ footer .footerLinks ul{
+   list-style-type: none;  
+   padding-bottom:5px;
+ }
+ footer .footerLinks ul li{  
+    float: left;
+ }
+ footer .footerLinks ul li a{ 
+     padding: 16px;
+     text-decoration: none;
+     color: #F6E5C8;
+ } 
+ 
+footer .footerLinks{
+   top: -80px;
+   left: 500px;
+   position: absolute;
+}
+
+footer .footerLinks ul li a:hover{ 
+   padding: 16px;
+   text-decoration: none;
+   color: #f0b040;
+} 
+
