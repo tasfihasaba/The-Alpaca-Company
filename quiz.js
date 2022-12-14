@@ -13,7 +13,7 @@ var questions = [{
   "answer": false
 },
    {
-    "question": "44% of tech employees work at a company with a D&I department.",
+    "question": "44% of tech employees work at a company with a DEI department.",
     "response": "",
     "answer": true
 },
